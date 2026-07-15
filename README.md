@@ -16,7 +16,7 @@ and place it in this folder.
 ## Run
 
 1. `python train_model.py` — cleans the data, plots error rate vs k, runs grid
-   search, trains the final model (k=21, Euclidean), prints the test-set metrics
+   search, trains the final model (k=19, Euclidean), prints the test-set metrics
    and saves `knn_model.joblib` + `scaler.joblib`.
 2. `python gui_app.py` — opens the desktop screening tool: eight input fields,
    one Predict button, shows the risk flag and the neighbour vote share.
